@@ -2,7 +2,7 @@
     display: none;
 }
 
-@media (max-width) {
+@media (max-width: 568px) {
     .all-content-wrapper {
         display: flex;
         flex-direction: column-reverse;
@@ -51,7 +51,7 @@
     }
 }
 
-@media (min-width) {
+@media (min-width: 998px) {
     .step-button-cluster-widget {
         position: fixed;
         width: 22%;
